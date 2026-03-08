@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-03-08 15:52:44">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>UI policy for Mandatory priority 2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>ae1c8f380f2b7210305c40d530d1b263</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-08 15:52:43</sys_created_on>
+<sys_id>e7b15ff00f6b7210305c40d530d1b2eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-08 15:52:43</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_f30f8fbc0f2b7210305c40d530d1b288</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>priority</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-08 15:47:45</sys_created_on><sys_id>f30f8fbc0f2b7210305c40d530d1b288</sys_id><sys_mod_count>0</sys_mod_count><sys_name>priority</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_policy_action_f30f8fbc0f2b7210305c40d530d1b288</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-08 15:47:45</sys_updated_on><table>incident</table><ui_policy display_value="Making the priority field mandatory when the state is set to In Progress.">eacc07b80f2b7210305c40d530d1b221</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=f30f8fbc0f2b7210305c40d530d1b288"/></record_update>]]></payload>
+<payload_hash>-1048758021</payload_hash>
+<remote_update_set display_value="UI policy for Mandatory priority 2">e7b15ff00f6b7210305c40d530d1b2eb</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-08 15:52:43</sys_created_on>
+<sys_id>afb15ff00f6b7210305c40d530d1b2eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cce2212b30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-08 15:52:43</sys_updated_on>
+<table>incident</table>
+<target_name>priority</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>3e909bbc362b7210d6e65509f15a3c0c</update_guid>
+<update_guid_history>3e909bbc362b7210d6e65509f15a3c0c:-1048758021</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_eacc07b80f2b7210305c40d530d1b221</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="incident"&gt;priority=2^EQ&lt;item display_value="2 - High" endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Making the priority field mandatory when the state is set to In Progress.&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-08 15:40:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;eacc07b80f2b7210305c40d530d1b221&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Making the priority field mandatory when the state is set to In Progress.&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_eacc07b80f2b7210305c40d530d1b221&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-08 15:40:12&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-442024339</payload_hash>
+<remote_update_set display_value="UI policy for Mandatory priority 2">e7b15ff00f6b7210305c40d530d1b2eb</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-08 15:52:43</sys_created_on>
+<sys_id>afb15ff00f6b7210305c40d530d1b2ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cce1b29c60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-08 15:52:43</sys_updated_on>
+<table>incident</table>
+<target_name>Making the priority field mandatory when the state is set to In Progress.</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>8cee07f81e2b7210c42b886c3e0164ca</update_guid>
+<update_guid_history>8cee07f81e2b7210c42b886c3e0164ca:-442024339</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
